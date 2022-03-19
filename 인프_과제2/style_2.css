@@ -1,0 +1,480 @@
+body{
+    margin:0;
+    padding:0;
+    
+}
+
+#menubar{
+
+    background-color:#edede5;
+    text-align: center;
+    padding-right: 20px;
+    border-bottom:3px solid #b6c49d ;
+    padding-bottom: 10px;
+    margin: 0 200px;
+    
+
+}
+
+#menubar ul{
+    padding:0;
+    display: inline-block;
+    width:100%;
+    margin-top: 20px;
+   
+    
+
+    
+}
+
+#menubar ul li{
+    display: inline-block;
+    list-style-type:none;
+    margin: 0px 5%;
+
+    
+}
+
+#menubar ul li a{
+    color:#b6c49d;
+    text-decoration:none;
+    font-size: 16px;
+    font-weight: 650;
+}
+
+#menubar ul li a:hover{
+    font-size:18px;
+    text-decoration: underline;
+    transition: 0.5s;
+    color:#fad06c
+}
+
+#main{
+    width:100%;
+    height:100vh;
+    box-sizing: border-box;
+    /*box-sizing는 박스의 크기를 어떤 것을 기주능로 계산할 지를 정하는 속성이고 border-box는 테두리를 기준으로 크기를 정한다는 속성*/
+    background-color: #edede5;
+    position:relative;
+    padding:0;
+    margin: 0;
+}
+
+/*center-----------------------------*/
+
+.center img{
+    position: absolute;
+    width:150px;
+    height: 150px;
+    top: 180px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 0;
+}
+
+.circle {
+    position: absolute;
+    margin : auto;
+    width: 200px;
+    height: 200px;
+    border: 4px solid #b6c49d;
+    border-radius: 50%;
+    top: 160px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 1;
+}
+
+
+.center p{
+    color:gray;
+    font-size:16px;
+    position: absolute;
+    top:55%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-weight: 900;
+    letter-spacing: 1px;
+    
+    
+}
+
+
+.center h1{
+    color:gray;
+    position: absolute;
+    top:60%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    font-weight: 900;
+   
+}
+
+/*emo----------------------*/
+.emo{
+    position: absolute;
+    left:50%;
+    top:80%;
+    display:flex;
+    transform: translate(-50%,-50%);
+    padding-bottom: 10px;
+
+
+}
+
+.emo a{
+    margin:10px 25px;
+}
+
+.emo i{
+    color:silver;
+    font-size:20px;
+}
+
+.emo a:hover i{
+    color:#fad06c;
+    transform: 0.5s;
+    font-size: 22px;
+}
+
+/*----------------table------------------------------------*/
+
+.table tr,td{
+    padding :10px;
+    
+}
+
+/*ac--------------*/
+
+#academic {
+    background:#edede5;
+    padding:0;
+    margin:0;
+    height:70vh;
+    width:100%; 
+    justify-content: center;
+    /*justify-content는 콘텐츠의 좌우 관계 정렬 상태를 정의하며 center는 좌우 정렬 상태를 가운데로 설정함*/
+    align-items: center;
+    /*align-items은 상하관계정렬상태이다.*/
+    
+    
+
+}
+.acade{
+    display: flex;
+    position: relative;
+	width: 50%;
+	height: 40vh;
+    background-color: #edede5;
+    top:30%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding:0;
+    border:3px solid #b6c49d;
+    border-radius:20px;
+    
+
+}
+#academic h1{
+    padding:0 5px 0 5px;
+    margin:0;
+    font-size:22px;
+    width:300px;
+    left:400px;
+    color:#b6c49d;
+    position:relative;
+    
+    
+    
+}
+
+#academic h1:hover{
+    border-left:3.5px solid #b6c49d;
+    
+    transition:0.3s;
+    
+}
+
+.acade{
+    justify-content: center;
+    align-items: center;
+}
+
+
+.acade table{
+    border-collapse: collapse;
+}
+.acade table tr td{
+    padding:30px;
+    font-size: 18px;
+    font-weight:700;
+    text-align:center;
+    color: rgb(71, 71, 71);
+}
+
+
+
+
+#certi{
+    background:#edede5;
+    padding:0;
+    margin:0;
+    height:70vh;
+    width:100%; 
+    justify-content: center;
+	align-items: center;
+}
+
+#certi h1{
+    padding:0 5px 0 5px;
+    width:150px;
+    margin:0;
+    top:17%;
+    left:400px;
+    color:#b6c49d;
+    position:relative;
+    box-sizing: border-box;
+    font-size:22px;
+    
+    
+}
+
+
+#certi h1:hover{
+    border-left:3.5px solid #b6c49d;
+    transition:0.3s;
+    
+}
+
+.certificate{
+    display: flex;
+    position: relative;
+	width: 50%;
+	height: 300px;
+    background-color: #edede5;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding:0;
+    border:3px solid #b6c49d;
+    border-radius:20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.certificate table{
+    border-collapse:collapse;
+}
+
+.certificate table tr td{
+    padding:30px;
+    font-size: 18px;
+    font-weight:700;
+    color: rgb(71, 71, 71);
+    text-align: center;
+    position: relative;
+
+
+}
+
+/*----------1.2-------*/
+
+#schedule{
+    background:#edede5;
+    padding:0;
+    margin:0;
+    height:120vh;
+    width:100%; 
+    justify-content: center;
+	align-items: center;
+}
+
+
+#schedule h1{
+    padding:0 5px 0 5px;
+    width:150px;
+    margin:0;
+    top:23%;
+    left:400px;
+    color:#b6c49d;
+    position:relative;
+    box-sizing: border-box;
+    font-size:22px;
+}
+
+#schedule h1:hover{
+    border-left:3.5px solid #b6c49d;
+    
+    transition:0.3s;
+}
+
+.sche{
+    display: flex;
+    position: relative;
+	width: 50%;
+	height: 450px;
+    background-color: #edede5;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding:0;
+    border:3px solid #b6c49d;
+    border-radius:20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sche table{
+    border-collapse:collapse;
+}
+
+.sche table tr td{
+    padding:10px;
+    font-size: 16px;
+    font-weight:700;
+    color: rgb(71, 71, 71);
+    text-align: center;
+    position: relative;
+}
+
+/*--------1.3--------*/
+
+#plan{
+    width:100%;
+    height:90vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #edede5, #b6c49d);
+}
+
+
+/*----------1.4----------*/
+#visitors_book{
+    width:100%;
+    height:90vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b6c49d;
+}
+
+#visitors_book form{
+    display:flex;
+    width:70%;
+    height:60vh;
+    background-color: #edede5;
+    box-shadow: 2px 10px 20px rgb(71, 71, 71);
+    border:1px solid rgb(46, 45, 45);
+    border-radius:10px;
+}
+
+.left{
+    width:40%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.right{
+    width:60%;
+    height:100%;
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-left:1px solid #b6c49d;
+}
+
+.right button{
+    width:100%;
+    height:50px;
+    background-color: #b6c49d;
+    outline:none;
+    border:none;
+    font-weight:700;
+    margin:0px;
+    color:rgb(46, 45, 45);
+    font-size:14px;
+    letter-spacing:2px;
+
+}
+
+.write{
+    color:gray;
+    font-size:28px;
+    letter-spacing: 2px;
+    font-weight:500;
+}
+
+.name, .email{
+    display:flex;
+    flex-direction: column;
+
+}
+
+.name font, .email font{
+    color:gray;
+    font-size:22px;
+}
+
+.name input, .email input{
+    height:30px;
+    width:250px;
+    border:none;
+    outline:none;
+    background-color: #edede5;
+    border-bottom:3px solid #929292;
+    color: rgb(46, 45, 45);
+    margin:10px 0px;
+    font-size: 16px;
+}
+
+.email input::placeholder,
+.name input::placeholder{
+    letter-spacing:1px;
+}
+
+.email input:focus,.name input:focus{
+    border-bottom:3px solid #b6c49d;
+    transition: 0.5s;
+}
+
+.message font{
+    font-size:22px;
+    color:#929292;
+    
+}
+
+.message{
+    margin:20px;
+}
+
+
+.right textarea{
+    width:100%;
+    height:320px;
+    border:none;
+    outline:none;
+    background-color: #edede5;
+    box-sizing:border-box;
+    color:rgb(46, 45, 45);
+    font-size: 18px;
+}
+
+.right textarea::placeholder{
+    color:#929292;
+    font-size:18px;
+    letter-spacing: 2px;
+
+}
+
+.right button:hover{
+    transform: scale(1.05);
+    transition:0.2s;
+}
